@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #bbb;
+  line-height: 1.538em;
+  overflow-x: hidden !important;
+}
+
+header{
+  padding: 5px 15px;
+  background: #212121;
+  border-bottom: 2px solid #292929;
+}
+
+header .nav-link{
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff !important;
+  margin: 0px 15px;
+}
+
+header .nav-link:hover, header .nav-link.active{
+  color: #97c00e !important;
+}
+
+section{
+  padding: 60px 0px;
+}
+
+h3{
+  color: #ddd;
+}
+
+a{
+  text-decoration: none;
+}
+
+.grid_04 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+}
+
+.card{
+  border: 1px solid #292929;
+  background-color: #212121;
+  border-radius: 0px;
+  /* margin-bottom: 20px; */
+}
+.card .card-body{
+  padding: 20px;
+}
+
+.card .card-body h5{
+  color: #ddd;
+  font-weight: 700;
+}
+a:hover .card{
+  box-shadow: 0px 0px 31px -13px rgba(151, 192, 14, 0.45);
+}
+a:hover .card .card-body h5{
+  color: #97c00e;
+}
+.card .card-body b, .card .card-body span{
+  color: #ddd;
+  font-weight: 600;
+}
+
+.card .card-body p{
+  color: #bbb;
+}
+
+.course_thumbnail{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 175px;
+  width: 100%;
+}
+
+.btn{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 15px;
+  letter-spacing: 0.26px;
+}
+
+.btn-green{
+  background: #97c00e;
+  color: #fff;
+  border: 1px solid #97c00e !important;
+  border-radius: 0px !important;
+}
+
+.btn-green:hover,.btn-green:focus{
+  background: transparent;
+  color: #97c00e;
+  box-shadow: none;
+}
+
+.btn-red{
+  background: red;
+  color: #fff;
+  border: 1px solid red !important;
+  border-radius: 0px !important;
+}
+
+.btn-red:hover,.btn-red:focus{
+  background: transparent;
+  color: red;
+  box-shadow: none;
+}
+
+.group_btn button, .modal-footer button{
+  margin-right: 15px !important;
+}
+
+.group_btn button:last-child, .modal-footer button:last-child{
+  margin-right: 0px !important;
+}
+
+.modal {
+  background: #000000a3 !important;
+}
+
+.modal-dialog {
+  margin-top: 4rem;
+}
+
+.modal-content {
+  border-radius: 0px;
+  background-color: #212121;
+  padding: 10px;
+}
+
+.modal-header, .modal-footer{
+  border: none !important;
+}
+
+.btn-close {
+  --bs-btn-close-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff0000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e) !important;
+}
+
+.form-control{
+  color: #bbb;
+  background: #1a1a1a;
+  border-radius: 0px;
+  border: none;
+  padding: .475rem .75rem;
+}
+
+.form-control::placeholder, .form-control:focus{
+  color: #bbb !important;
+  background: #1a1a1a !important;
+  border-radius: 0px;
+  border: none;
+  padding: .475rem .75rem;
+  box-shadow: none;
+}
+
+.rmsc .gray {
+  color: #bbb !important
+}
+
+.rmsc {
+  --rmsc-main: transparent !important;
+  --rmsc-hover: #212121 !important;
+  --rmsc-selected: #212121 !important;
+  --rmsc-border: #1a1a1a !important;
+  --rmsc-gray: #aaa !important;
+  --rmsc-bg: #1a1a1a !important;
+  --rmsc-p: 10px !important;
+  --rmsc-radius: 4px !important;
+  --rmsc-h: 38px !important;
+}
+
+.dropdown-heading-value:focus, .dropdown-heading-value:focus-within{
+  border-color: #1a1a1a !important;
+  outline: none;
+
+}
+
+.rmsc .dropdown-container {
+  position: relative;
+  outline: 0;
+  border:  none !important;
+  border-radius: 0px !important;
+}
+
+.rmsc.multi-select{
+  padding: 1px 0px;
+}
+
+input[type=checkbox]{
+  background-color: transparent;
+  border-color: #bbb;
+}
+
+.form-check-input:checked {
+  background-color: #97c00e;
+  border-color: #97c00e;
+}
+
+.form-check-input:focus {
+  border-color: #97c00e;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-check.form-check-inline {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .grid_04 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .grid_04 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid_04 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .modal-btn{
+    margin-top: 15px;
+  }
+}
+
+.navbar-nav{
+  flex-direction: unset !important;
+  justify-content: center;
+}
+
+.form-check-input:hover{
+  cursor: pointer;
+}
